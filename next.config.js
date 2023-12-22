@@ -47,11 +47,6 @@ module.exports = withBundleAnalyzer({
   async redirects() {
     return [
       {
-        source: '/:path*',
-        destination: 'https://huangdao.xyz/:path*',
-        permanent: true
-      },
-      {
         source: '/feed',
         destination: '/rss/feed.xml',
         permanent: true
