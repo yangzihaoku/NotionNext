@@ -47,7 +47,7 @@ module.exports = withBundleAnalyzer({
   async redirects() {
     return [
       {
-        source: 'https://blog.huangdao.xyz/:path*',
+        source: '/:path*',
         destination: 'https://huangdao.xyz/:path*',
         permanent: true
       },
